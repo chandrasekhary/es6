@@ -1,0 +1,17 @@
+
+/* method 1 */
+
+let name = "Chandra"
+let revname = name.split("").reverse().join("")
+console.log("revame", revname)
+
+/* method 2 */
+
+let str = '';
+for(let index = name.length - 1; index >= 0; index--) {
+    console.log(name[index], )
+    str += name[index]
+}
+
+
+console.log('rev method 2', str)
