@@ -1,1 +1,5 @@
 
+let name = "Chandra"
+let revname = name.split("").reverse().join("")
+
+if(name === revname) { console.log(`${name} is palindrome`) } else { console.log(`${name} not is palindrome`) }
